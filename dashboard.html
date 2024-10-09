@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TrackYourMoney - Dashboard</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/dashboard.css">
     <link rel="stylesheet" href="css/loading.css">
@@ -38,7 +38,7 @@
         <a class="navbar-brand d-flex align-items-center" href="dashboard.html">
             <img src="images/nav-logo.png" width="40" height="40" style="border-radius:5px;" class="d-inline-block align-top logo" alt="">
             <!-- <img src="images/money.gif" width="40" height="40" style="border-radius:5px;" class="d-inline-block align-top logo" alt=""> -->
-            <span class="navbar-brand mb-0 h1 text-muted navbar-font">Meemee/span>
+            <span class="navbar-brand mb-0 h1 text-muted navbar-font">meemee</span>
         </a>
 
         <div class="d-flex align-items-center">
@@ -84,12 +84,12 @@
 
             <div class="col-md-4 mt-4 col-lg-4" id="ResponsiveHideMobile">
                 <div class="card">
-                    <img src="images/user.png" id="user_image"class="card-img-top" style="padding: 5px;" alt="...">
+                    <img src="images/user.png" id="user_image"class="card-img-top" style="padding: 5px; width: 70px; height:70px;" alt="...">
                     <div class="card-body" style="padding-top: 5px; padding-bottom: 10px;">
                       <h5 class="card-title font-table-items" style="font-size: 2rem; margin-bottom: 0px;"><strong id="user_name"></strong></h5>
-                      <p class="card-text"><strong>Occupation: </strong><span id="Updatedoccupation">Please Edit Profile</span></p>
-                      <p class="card-text"><strong>DOB: </strong><span id="UpdatedDOB">Please Edit Profile</span></p>
-                      <p class="card-text"><strong>Address: </strong><span id="UpdatedAddress">Please Edit Profile</span></p>
+                      <p class="card-text"><strong>Occupation: </strong><span id="Updatedoccupation">Edit Profile</span></p>
+                      <p class="card-text"><strong>DOB: </strong><span id="UpdatedDOB">Edit DOB</span></p>
+                      <p class="card-text"><strong>Address: </strong><span id="UpdatedAddress">Edit Address</span></p>
                       <a href="#" class="btn btn-lg btn-block btn-dark font-small-cards edit" data-toggle="modal" data-target="#profileModal">Edit Profile</a>
                     </div>
                  </div>
@@ -102,7 +102,7 @@
                         <div class="card bg-warning text-white mt-4" id="total-earnings">
                             <div class="card-body height-fixed">
                                 <h3 class="font-top-cards">Total Earnings: </h3>
-                                <h1 class="font-top-num">Rs. <span id="totalEarning">0</span></h1>
+                                <h1 class="font-top-num">&#8358<span id="totalEarning">0</span></h1>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                         <div class="card bg-danger text-white mt-26" id="total-expense">
                             <div class="card-body height-fixed">
                                 <h3 class="font-top-cards">Total Expenses: </h3>
-                                <h1 class="font-top-num">Rs. <span id="totalExpense">0</span></h1>
+                                <h1 class="font-top-num">&#8358<span id="totalExpense">0</span></h1>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@
                         <div class="card bg-success text-white mt-26" id="total-savings">
                             <div class="card-body height-fixed">
                                 <h3 class="font-top-cards">Total Savings: </h3>
-                                <h1 class="font-top-num">Rs. <span id="totalSavings">0</span></h1>
+                                <h1 class="font-top-num">&#8358<span id="totalSavings">0</span></h1>
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                 <div class="card bg-success text-white mt-26 mt-4 current-month-credit-theme">
                     <div class="card-body height-fixed">
                         <h3 class="font-top-cards text-768">Current Month Credit: </h3>
-                        <h1 class="font-top-num text-768" >Rs. <span id="currentMonthCredit">0</span></h1>
+                        <h1 class="font-top-num text-768" >&#8358<span id="currentMonthCredit">0</span></h1>
                     </div>
                 </div>
             </div>
@@ -159,7 +159,7 @@
                 <div class="card bg-success text-white mt-26 mt-4 current-month-debit-theme">
                     <div class="card-body height-fixed">
                         <h3 class="font-top-cards text-768">Current Month Debit: </h3>
-                        <h1 class="font-top-num text-768">Rs. <span id="currentMonthDebit">0</span></h1>
+                        <h1 class="font-top-num text-768">&#8358 <span id="currentMonthDebit">0</span></h1>
                     </div>
                 </div>
             </div>
@@ -299,7 +299,7 @@
                             <option value="Bank Fees">Bank Fees</option>
                             <option value="Business Insurance">Business Insurance</option>
                             <option value="Commissions">Commissions</option>
-                            <option value="Depreciation<">Depreciation</option>
+                            <option value="Depreciation">Depreciation</option>
                             <option value="Interest - Mortgage">Interest - Mortgage</option>
                             <option value="Interest - Other">Interest - Other</option>
                             <option value="Online Services">Online Services</option>
