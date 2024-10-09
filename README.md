@@ -1,9 +1,4 @@
-# EXPENSE TRACKER FIREBASE PROJECT
-
-I have completed this ```firebase project``` with my two friends <a href="https://github.com/sourasishchakraborty" target="_blank">Sourasish Chakraborty </a> and <a href="https://github.com/Shalini21c" target="_blank">Shalini Chanda</a>.
-
-<a href="https://sourasishchakraborty.github.io/trackyourmoney/index.html">Click here</a> to go to the website.  
-
+# Meemee Web Budget Tracker System
 ## Applied Skills:-
 - ```HTML```
 - ```CSS```
